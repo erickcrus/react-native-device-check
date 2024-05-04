@@ -1,9 +1,9 @@
 {
   "name": "@erickcrus/react-native-device-check",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "description": "Native bridge to the iOS DeviceCheck API",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -32,5 +32,9 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
-  "homepage": "https://github.com/erickcrus/react-native-device-check#readme"
+  "homepage": "https://github.com/erickcrus/react-native-device-check#readme",
+  "dependencies": {
+    "react-native": "*",
+    "typescript": "^5.4.5"
+  }
 }
