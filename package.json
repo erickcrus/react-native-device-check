@@ -1,6 +1,6 @@
 {
-  "name": "react-native-device-check",
-  "version": "1.0.0",
+  "name": "@erickcrus/react-native-device-check",
+  "version": "0.0.1",
   "description": "Native bridge to the iOS DeviceCheck API",
   "main": "index.js",
   "scripts": {
