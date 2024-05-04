@@ -6,6 +6,11 @@ DeviceCheck helps identify a particular device (per development account) and aut
 
 The API was introduced in iOS 11 and requires a physical device, running on a lower target or simulator will throw an exception.
 
+## Install
+```
+npm install @erickcrus/react-native-device-check
+```
+
 ## Usage
 
 Async/await:

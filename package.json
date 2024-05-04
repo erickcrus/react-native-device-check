@@ -1,6 +1,7 @@
 {
   "name": "@erickcrus/react-native-device-check",
   "version": "0.0.1",
+  "private": false,
   "description": "Native bridge to the iOS DeviceCheck API",
   "main": "index.js",
   "scripts": {
@@ -8,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cewpur/react-native-device-check.git"
+    "url": "git+https://github.com/erickcrus/react-native-device-check.git"
   },
   "keywords": [
     "react",
@@ -18,10 +19,18 @@
     "devicecheck",
     "ios"
   ],
-  "author": "cewpur",
+  "author": {
+    "name": "Erick Crus",
+    "email": "erickcrus@brasilbitcoin.com.br",
+    "url": "http://brasilbitcoin.com.br"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cewpur/react-native-device-check/issues"
+    "url": "https://github.com/erickcrus/react-native-device-check/issues"
   },
-  "homepage": "https://github.com/cewpur/react-native-device-check#readme"
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "homepage": "https://github.com/erickcrus/react-native-device-check#readme"
 }
