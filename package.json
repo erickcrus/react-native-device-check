@@ -1,5 +1,5 @@
 {
-  "name": "react-native-device-check",
+  "name": "@erickcrus/react-native-device-check",
   "version": "0.0.3",
   "private": false,
   "description": "Native bridge to the iOS DeviceCheck API",
